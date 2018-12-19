@@ -1,0 +1,45 @@
+// Place all the styles related to the reservations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$PRIMARY_RED: #d11149;
+.react-datepicker__time-list{ padding-left : 0 }
+.stripe-button-el span, .stripe-button-el {background-image: none!important; background: $PRIMARY_RED!important;}
+
+h1 {
+	color: $PRIMARY_RED;
+}
+
+.hourly, .field {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.reserve {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 1em;
+}
+
+.react-datepicker-popper {
+	// left: 11px !important;
+	width: 500px;
+	transform: translate3d(-19px, 131px, 0px)!important;
+}
+
+.react-datepicker {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.reserve{
+	.reserve-label { margin-top: 13px!important;}
+	.button {margin-top: 13px;}
+}
+
+.account-history{
+	text-align: center;
+	h4 { margin-left: 0;}
+	.total {margin-left:83px;}
+}
